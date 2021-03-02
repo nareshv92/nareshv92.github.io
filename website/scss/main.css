@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header section START here ##############################################################################################*/
+.header {
+  /* bg image setting*/
+  background-image: url("../Webimage/herobg.jpg");
+  min-height: 70vh;
+  background-size: cover;
+  /* bg img bsetting end here*/
+}
+
+.header .header-top {
+  /* logo, nav inside*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 20px 10px 20px;
+  padding: 5px;
+}
+
+.header .header-top .header-top-nav a {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+}
+
+.header .header-top a:hover {
+  border-bottom: 5px solid green;
+}
+
+.header .header-article {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .header-article .test {
+  color: white;
+  line-height: 1.5em;
+}
+
+.header .header-article .test p {
+  width: 200px;
+}
+
+.header .header-article .test button {
+  color: black;
+  outline: none;
+  padding: 5px;
+}
+
+.header .social-icon {
+  margin: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .social-icon #fb {
+  margin-left: 10px;
+}
+
+.header .social-icon #insta {
+  margin-left: 10px;
+}
+
+/* header css end here ###############################################################################################################*/
+.product {
+  /* product section start here*/
+}
+
+.product span {
+  text-align: center;
+  padding: 5px;
+}
+
+.product .product-detail {
+  /*to apply flexbox*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10px 0px 10px 0px;
+}
+
+.product .product-detail .figure {
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.171);
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+}
+
+.product .product-detail .figure img {
+  width: 100%;
+}
+
+.product .product-detail .figure .view-product {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.product .viewAll {
+  /* bottom span with "a" in the section*/
+  display: block;
+  text-align: center;
+}
+
+/* section product END here#######################################################################################################*/
+#homebutton {
+  border: 2px solid red;
+  color: white;
+  background-color: royalblue;
+  width: 100px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+#homebutton a {
+  display: inline-block;
+}
+
+.contact {
+  /* contact section START here*/
+  min-height: 50vh;
+  background-color: rgba(151, 148, 148, 0.445);
+}
+
+.contact span {
+  text-align: center;
+  padding: 10px;
+}
+
+.contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.contact .container article {
+  /*left side*/
+  width: 390px;
+  text-align: center;
+}
+
+.contact .container article h1 {
+  font-size: 2.1rem;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.contact .container .form {
+  /* right side*/
+  width: 500px;
+  margin: 10px;
+}
+
+.contact .container .form #name, .contact .container .form #email, .contact .container .form #msg, .contact .container .form #btn {
+  border: 10px solid green;
+  height: 40px;
+  border: 1px solid #cac6c6;
+  border-left: 2px solid grey;
+  width: 100%;
+}
+
+.contact .container .form #name, .contact .container .form #email, .contact .container .form #msg {
+  padding-left: 10px;
+}
+
+.contact .container .form #btn {
+  background-color: #000;
+  color: white;
+}
+
+/* contact section END here #####################################################################################################*/
+/* footer section START here*/
+.footer {
+  height: 30vh;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer span h1, .footer span h2 {
+  font-size: 15px;
+  color: white;
+}
+
+/* footer section END here##########################################################################################################*/
+/*# sourceMappingURL=main.css.map */
